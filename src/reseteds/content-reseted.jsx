@@ -37,7 +37,7 @@ const content = {
           <strong> A_Definir</strong>A_Definir
         </p>
       ),
-      subtitulo: "A_Definir.",
+      subtitulo: "A_Definir",
       labelBotaoPrincial: "A_Definir",
       labelBotaoSecundario: "Agendar Horário",
     },
@@ -53,7 +53,7 @@ const content = {
         index: 1,
         icone: BriefcaseBusiness,
         titulo: "A_Definir",
-        descricao: "A_Definir.",
+        descricao: "A_Definir",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -68,7 +68,7 @@ const content = {
         index: 2,
         icone: Angry,
         titulo: "A_Definir",
-        descricao: "A_Definir.",
+        descricao: "A_Definir",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -83,7 +83,7 @@ const content = {
         index: 3,
         icone: FileX,
         titulo: "A_Definir",
-        descricao: "A_Definir.",
+        descricao: "A_Definir",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -98,7 +98,7 @@ const content = {
         index: 4,
         icone: Tag,
         titulo: "A_Definir",
-        descricao: "A_Definir.",
+        descricao: "A_Definir",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>

@@ -8,7 +8,7 @@ export default function CtaButton({
   reflexAnimation = true,
 }) {
   const themes = {
-    light: "bg-lighter text-fontDarker ",
+    light: "bg-lighter text-fontLighter ",
     dark: "bg-darker text-fontLighter",
   };
 

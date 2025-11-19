@@ -30,7 +30,7 @@ export default function Transformacao() {
                   data: content.transformacao.depois,
                   styles: {
                     cardClasses: "bg-lighter/20 shadow-lg hover:shadow-xl",
-                    etiquetaClasses: "text-fontDarker bg-lighter",
+                    etiquetaClasses: "text-fontLighter bg-lighter",
                     bulletClasses: "bg-lighter",
                     textoClasses: "text-lg text-gray-900",
                   },
@@ -54,7 +54,7 @@ export default function Transformacao() {
               icon={content.util.svgWhatsapp}
               link={content.util.ctaWhatsapp}
               label={content.transformacao.texts.labelBotaoPrincial}
-              colorMode="dark"
+              colorMode="light"
             />
           </div>
         </SectionArea>
