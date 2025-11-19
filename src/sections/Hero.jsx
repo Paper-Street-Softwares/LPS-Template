@@ -22,21 +22,23 @@ export default function Hero({ imagemFocadaBackground }) {
         >
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
-              <img
+              {/* <img
                 src={content.hero.imagens.logo}
                 alt="Logomarca"
                 className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
-              />
+              /> */}
+              <div className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-[110px] mb-6 bg-gray-300"></div>
             </div>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
-              <div
+              {/* <div
                 style={{
                   backgroundImage: `url(${content.hero.imagens.focadaHero})`,
                 }}
                 className="bg-center bg-no-repeat bg-cover h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px]"
-              />
+              /> */}
+              <div className="h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px] bg-gray-300"></div>
             </MotionDivDownToUp>
           )}
           <MotionDivDownToUp>

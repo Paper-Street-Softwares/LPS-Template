@@ -44,9 +44,9 @@ export default function Cta() {
               </h2>
             </MotionDivDownToUp>
 
-            <div className="max-w-3xl mx-auto mt-10 shadow-lg rounded-2xl">
+            <div className="max-w-3xl mx-auto mt-10 shadow-lg rounded-2xl deskt">
               <MotionDivDownToUp>
-                <div className="inline-block mb-16 text-left">
+                <div className="inline-block mb-16 text-left desktop1:max-w-[400px]">
                   <ul className="space-y-5">
                     {content.cta.pontos
                       .filter((ponto) => ponto.index !== 0)
