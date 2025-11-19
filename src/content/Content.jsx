@@ -6,6 +6,7 @@ import {
   Tag,
   Angry,
   FileX,
+  Scale,
 } from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgHero from "../assets/hero.webp";
@@ -46,15 +47,16 @@ const content = {
 
   features: {
     texts: {
-      titulo: "A_Definir",
-      labelBotaoPrincial: "A_Definir",
+      titulo: "Suas dúvidas de IR resolvidas",
+      labelBotaoPrincial: "Preciso De Ajuda Com Meu Caso",
     },
     cards: [
       {
         index: 1,
-        icone: BriefcaseBusiness,
-        titulo: "A_Definir",
-        descricao: "A_Definir.",
+        icone: FileText,
+        titulo: "Erros na declaração",
+        descricao:
+          "Analiso e corrijo falhas que podem gerar multas, cuidando de todo o processo por você.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -67,9 +69,10 @@ const content = {
       },
       {
         index: 2,
-        icone: Angry,
-        titulo: "A_Definir",
-        descricao: "A_Definir.",
+        icone: BriefcaseBusiness,
+        titulo: "Malha fina",
+        descricao:
+          "Acompanho seu caso, explico cada passo e trabalho para regularizar sua situação com segurança.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -82,24 +85,10 @@ const content = {
       },
       {
         index: 3,
-        icone: FileX,
-        titulo: "A_Definir",
-        descricao: "A_Definir.",
-        labelBotaoModal: "Saiba mais",
-        textoModal: (
-          <p>
-            A_Definir
-            <br />
-            <br />
-            A_Definir
-          </p>
-        ),
-      },
-      {
-        index: 4,
-        icone: Tag,
-        titulo: "A_Definir",
-        descricao: "A_Definir.",
+        icone: Scale,
+        titulo: "Restituição retida",
+        descricao:
+          "Revejo documentos e ajustes necessários para destravar sua restituição com clareza e orientação jurídica.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -115,23 +104,26 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: "A_Definir",
-      labelBotaoPrincial: "A_Definir",
+      titulo: "Recupere sua tranquilidade fiscal",
+      labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
       etiqueta: "ANTES",
       pontos: [
         {
           index: 1,
-          texto: "A_Definir",
+          texto:
+            "Você está inseguro(a) com erros no IR e teme cair na malha fina",
         },
         {
           index: 2,
-          texto: "A_Definir",
+          texto:
+            "Não sabe se precisa de um advogado para resolver pendências fiscais",
         },
         {
           index: 3,
-          texto: "A_Definir",
+          texto:
+            "Fica preocupado(a) pensando nas multas e na demora para receber sua restituição",
         },
       ],
     },
@@ -141,15 +133,18 @@ const content = {
       pontos: [
         {
           index: 1,
-          texto: "A_Definir",
+          texto:
+            "Vive com tranquilidade sabendo que seu IR está sendo corrigido e acompanhado de perto",
         },
         {
           index: 2,
-          texto: "A_Definir",
+          texto:
+            "Tem contato direto comigo sempre que precisar, sem buscar outros profissionais",
         },
         {
           index: 3,
-          texto: "A_Definir",
+          texto:
+            "Dorme melhor ao ver seu caso avançando com orientação jurídica clara e responsável",
         },
       ],
     },
@@ -160,22 +155,22 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: "A_Definir",
+      etiqueta: "Não espere nem mais um segundo",
 
       titulo: (
         <h2>
-          A_Definir
-          <strong> A_Definir</strong>
+          Cada minuto sem agir no seu IR pode aumentar
+          <strong> riscos e prejuízos!</strong>
         </h2>
       ),
-      labelBotaoPrincial: "A_Definir",
+      labelBotaoPrincial: "Quero Resolver Agora Mesmo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            A_Definir<strong> A_Definir</strong>
+            Atendimento para<strong> todo o Brasil</strong>
           </p>
         ),
       },
@@ -183,7 +178,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            A_Definir<strong> A_Definir </strong>A_Definir
+            <strong> Analiso </strong>completamente seu caso
           </p>
         ),
       },
@@ -191,7 +186,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            A_Definir <strong>A_Definir </strong>A_Definir
+            Respondo <strong>rápido </strong>no Whatsapp
           </p>
         ),
       },
@@ -203,15 +198,16 @@ const content = {
       imgPessoa: imgAbout,
     },
     texts: {
-      titulo: "A_Definir",
-      labelBotaoPrincial: "A_Definir",
+      titulo: "Por Que Meus Clientes Confiam Em Mim",
+      labelBotaoPrincial: "Fale Diretamente Comigo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            A_Definir <strong>A_Definir</strong> A_Definir
+            Respondo <strong> rápido </strong> porque sei que o seu tempo
+            importa.
           </p>
         ),
       },
@@ -219,7 +215,8 @@ const content = {
         index: 2,
         texto: (
           <p>
-            A_Definir <strong>A_Definir</strong> A_Definir
+            Estou sempre <strong> estudando </strong> todas as mudanças mudanças
+            do IR para aposentados, pensionistas e servidores.
           </p>
         ),
       },
@@ -227,7 +224,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            <strong>A_Definir</strong> A_Definir A_Definir
+            Atuo há<strong> mais de uma década </strong> defendendo quem sofre
+            descontos indevidos no Imposto de Renda.
           </p>
         ),
       },
@@ -235,8 +233,8 @@ const content = {
         index: 4,
         texto: (
           <p>
-            A_Definir
-            <strong> A_Definir</strong>
+            Não faço promessas falsas: Estudo seu caso e te auxilio
+            <strong> sem enrolação.</strong>
           </p>
         ),
       },
@@ -244,7 +242,8 @@ const content = {
         index: 5,
         texto: (
           <p>
-            A_Definir <strong>A_Definir</strong> A_Definir
+            Uso <strong> tecnologia jurídica </strong> para agilizar cálculos,
+            protocolos e acompanhar sua restituição.
           </p>
         ),
       },
@@ -256,14 +255,16 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: "A_Definir",
+      etiqueta: "Chegou a hora de recuperar o que é seu",
       titulo: (
         <h2>
-          A_Definir <strong>A_Definir</strong> A_Definir
+          Entre em contato e farei uma <strong> análise imediata </strong> da
+          sua restituição
         </h2>
       ),
-      labelBotaoPrincial: "A_Definir",
-      direitosReservados: "2025 • A_Definir • Todos os direitos reservados • ",
+      labelBotaoPrincial: "Quero Ser Atendido Agora",
+      direitosReservados:
+        "2025 • Garcia Machado • Todos os direitos reservados • ",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">

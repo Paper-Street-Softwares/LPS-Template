@@ -15,6 +15,7 @@ export const theme = {
       darker: "#132745",
       fontLighter: "#ffffff",
       fontDarker: "#000000",
+      backgroundHeroDiv: "#1D0101",
     },
     fontFamily: {
       mainFont: ["EB Garamond", "serif"],

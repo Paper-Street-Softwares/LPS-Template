@@ -12,7 +12,7 @@ export default function Hero({ imagemFocadaBackground }) {
             alt="Imagem ilustrativa"
             className="object-cover w-full h-full"
           />
-          <div className="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
+          <div className="absolute inset-0 bg-backgroundHeroDiv/90 lg:bg-backgroundHeroDiv/90"></div>
         </div>
 
         <div
@@ -22,12 +22,12 @@ export default function Hero({ imagemFocadaBackground }) {
         >
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
-              {/* <img
+              <img
                 src={content.hero.imagens.logo}
                 alt="Logomarca"
                 className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
-              /> */}
-              <div className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-[110px] mb-6 bg-gray-300"></div>
+              />
+              {/* <div className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-[110px] mb-6 bg-gray-300"></div> */}
             </div>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
