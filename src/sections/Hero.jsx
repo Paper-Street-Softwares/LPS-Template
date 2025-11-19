@@ -5,9 +5,9 @@ import CtaButton from "../components/buttons/CtaButton";
 export default function Hero({ imagemFocadaBackground }) {
   const themes = {
     dark: {
-      backgroundDiv: "bg-black",
-      titleColor: "text-white",
-      subtitleColor: "text-gray-300",
+      backgroundDiv: "bg-red-500",
+      titleColor: "text-blue-400",
+      subtitleColor: "text-blue-400",
       themeButtonPrimary: "light",
       themeButton: "light",
     },
