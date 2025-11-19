@@ -14,9 +14,9 @@ import imgBackground from "../assets/background.webp";
 
 export const infos = {
   telefone: {
-    ddd: "31",
-    primeiraParte: "99176",
-    segundaParte: "1967",
+    ddd: "67",
+    primeiraParte: "99292",
+    segundaParte: "1515",
   },
   mensagemWhatsapp:
     "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
@@ -30,15 +30,16 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ A_Definir",
+      etiqueta: "⚖️ Advogado Tributarista • São Paulo • SP",
       titulo: (
         <p>
-          A_Definir
-          <strong> A_Definir</strong>A_Definir
+          Precisando de ajuda com a<strong> restituição</strong>do seu Imposto
+          de Renda?
         </p>
       ),
-      subtitulo: "A_Definir.",
-      labelBotaoPrincial: "A_Definir",
+      subtitulo:
+        "Com sólida experiência em IR, ajudo quem caiu em erros ou malha fina a corrigir tudo com segurança, evitando multas e trazendo mais tranquilidade..",
+      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },
   },
