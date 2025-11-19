@@ -34,12 +34,12 @@ const content = {
       etiqueta: "⚖️ Advogado Tributarista • São Paulo • SP",
       titulo: (
         <p>
-          Precisando de ajuda com a<strong> restituição</strong>do seu Imposto
+          Precisando de ajuda com a<strong> restituição </strong>do seu Imposto
           de Renda?
         </p>
       ),
       subtitulo:
-        "Com sólida experiência em IR, ajudo quem caiu em erros ou malha fina a corrigir tudo com segurança, evitando multas e trazendo mais tranquilidade..",
+        "Com sólida experiência em IR, ajudo quem caiu em erros ou malha fina a corrigir tudo com segurança, evitando multas e trazendo mais tranquilidade.",
       labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },

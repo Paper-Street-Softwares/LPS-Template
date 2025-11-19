@@ -11,10 +11,11 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      lighter: "#770000",
-      darker: "#222222",
+      lighter: "#D7B283",
+      darker: "#132745",
       fontLighter: "#ffffff",
       fontDarker: "#000000",
+      backgroundHeroDiv: "#000",
     },
     fontFamily: {
       mainFont: ["EB Garamond", "serif"],

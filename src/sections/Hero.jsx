@@ -3,6 +3,41 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 
 export default function Hero({ imagemFocadaBackground }) {
+  const themes = {
+    dark: {
+      backgroundDiv: "bg-black",
+      titleColor: "text-white",
+      subtitleColor: "text-gray-300",
+      themeButtonPrimary: "light",
+      themeButton: "light",
+    },
+
+    light: {
+      backgroundDiv: "bg-white/80",
+      titleColor: "text-black",
+      subtitleColor: "text-black",
+      themeButtonPrimary: "light",
+      themeButton: "dark",
+    },
+
+    default: {
+      backgroundDiv: "bg-black",
+      titleColor: "text-white",
+      subtitleColor: "text-white",
+      themeButtonPrimary: "light",
+      themeButton: "dark",
+    },
+  };
+
+  // 🔥 Corrigido aqui
+  const {
+    backgroundDiv,
+    titleColor,
+    subtitleColor,
+    themeButton,
+    themeButtonPrimary,
+  } = themes.light;
+
   return (
     <>
       <div className="relative overflow-hidden bg-black">
@@ -12,7 +47,9 @@ export default function Hero({ imagemFocadaBackground }) {
             alt="Imagem ilustrativa"
             className="object-cover w-full h-full"
           />
-          <div className="absolute inset-0 bg-backgroundHeroDiv/90 lg:bg-backgroundHeroDiv/90"></div>
+          <div
+            className={`absolute inset-0 ${backgroundDiv} lg:${backgroundDiv}`}
+          ></div>
         </div>
 
         <div
@@ -32,13 +69,13 @@ export default function Hero({ imagemFocadaBackground }) {
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
-              {/* <div
+              <div
                 style={{
                   backgroundImage: `url(${content.hero.imagens.focadaHero})`,
                 }}
                 className="bg-center bg-no-repeat bg-cover h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px]"
-              /> */}
-              <div className="h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px] bg-gray-300"></div>
+              />
+              {/* <div className="h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px] bg-gray-300"></div> */}
             </MotionDivDownToUp>
           )}
           <MotionDivDownToUp>
@@ -47,12 +84,16 @@ export default function Hero({ imagemFocadaBackground }) {
             </span>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <h1 className="text-4xl font-medium tracking-tight capitalize sm:text-5xl lg:text-6xl font-mainFont">
+            <h1
+              className={`text-4xl font-medium tracking-tight capitalize sm:text-5xl lg:text-6xl font-mainFont ${titleColor}`}
+            >
               {content.hero.texts.titulo}
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <p className="max-w-3xl mx-auto mt-6 text-lg sm:text-xl text-fontLighter/85 font-secondFont">
+            <p
+              className={`max-w-3xl mx-auto mt-6 text-lg sm:text-xl text-fond/85 font-secondFont ${subtitleColor}`}
+            >
               {content.hero.texts.subtitulo}
             </p>
           </MotionDivDownToUp>
@@ -61,19 +102,19 @@ export default function Hero({ imagemFocadaBackground }) {
               icon={content.util.svgWhatsapp}
               link={content.util.ctaWhatsapp}
               label={content.hero.texts.labelBotaoPrincial}
-              colorMode="light"
+              colorMode={`${themeButtonPrimary}`}
             />
             <CtaButton
               icon={content.util.svgCalendario}
               link={content.util.ctaWhatsapp}
               label={content.hero.texts.labelBotaoSecundario}
-              colorMode="dark"
+              colorMode={`${themeButton}`}
             />
           </div>
           <div className="absolute -translate-x-1/2 bottom-6 left-1/2">
             <MotionDivDownToUp>
               <svg
-                className="w-8 h-8 text-fontLighter animate-bounce"
+                className={`w-8 h-8 ${titleColor} animate-bounce`}
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"

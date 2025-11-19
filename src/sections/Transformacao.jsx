@@ -54,7 +54,7 @@ export default function Transformacao() {
               icon={content.util.svgWhatsapp}
               link={content.util.ctaWhatsapp}
               label={content.transformacao.texts.labelBotaoPrincial}
-              colorMode="dark"
+              colorMode="light"
             />
           </div>
         </SectionArea>

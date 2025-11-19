@@ -64,7 +64,7 @@ export default function About() {
                     icon={content.util.svgWhatsapp}
                     link={content.util.ctaWhatsapp}
                     label={content.about.texts.labelBotaoPrincial}
-                    colorMode="dark"
+                    colorMode="light"
                   />
                 </div>
               </div>

@@ -25,7 +25,7 @@ export default function Features() {
               icon={content.util.svgWhatsapp}
               link={content.util.ctaWhatsapp}
               label={content.features.texts.labelBotaoPrincial}
-              colorMode="dark"
+              colorMode="light"
             />
           </div>
         </SectionArea>
