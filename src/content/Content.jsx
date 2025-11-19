@@ -14,9 +14,9 @@ import imgBackground from "../assets/background.webp";
 
 export const infos = {
   telefone: {
-    ddd: "11",
-    primeiraParte: "96358",
-    segundaParte: "7483",
+    ddd: "31",
+    primeiraParte: "99176",
+    segundaParte: "1967",
   },
   mensagemWhatsapp:
     "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
