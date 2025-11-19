@@ -30,15 +30,15 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Atendimento Em Todo O ABC Paulista E Grande SP",
+      etiqueta: "⚖️ Advogado Imobiliário",
       titulo: (
         <p>
-          Precisando De
-          <strong> Um Advogado</strong>?
+          Problemas Imobiliários? Eu
+          <strong> Resolvo </strong>Pra Você
         </p>
       ),
       subtitulo:
-        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
+        "Atendo corretores, imobiliárias e compradores, oferecendo assessoria completa em contratos, análises e aquisição de imóveis, com orientação clara em cada etapa.",
       labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },
@@ -46,94 +46,55 @@ const content = {
 
   features: {
     texts: {
-      titulo: "Cuido do seu caso trabalhista com excelência",
-      labelBotaoPrincial: "Preciso de Ajuda com Meu Caso Trabalhista",
+      titulo: "Cuido do seu caso com excelência",
+      labelBotaoPrincial: "Preciso De Ajuda Com Meu Caso",
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Direito do Empregador",
+        titulo: "Para Corretores e Imobiliárias",
         descricao:
-          "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
+          "Apoio jurídico em contratos, disputas, locações e segurança nas operações do seu negócio.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
-            de quem enfrenta abusos e injustiças nas relações de trabalho.
+            A_Definir
             <br />
             <br />
-            Com proteção total, estratégia sólida e compromisso inabalável, o
-            escritório luta até o fim para garantir respeito, direitos e justiça
-            real para quem faz o trabalho acontecer, porque para nós os direitos
-            do trabalhador não se negociam — o seu direito é a nossa causa.
+            A_Definir
           </p>
         ),
       },
       {
         index: 2,
         icone: Angry,
-        titulo: "Assédio e Ambiente Tóxico",
+        titulo: "Assessoria na Compra do Seu Imóvel",
         descricao:
-          "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
+          "Análise completa de contratos, documentação e riscos para você comprar com total tranquilidade.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            Ofereço proteção jurídica estratégica para empresas, atuando com
-            firmeza, técnica e visão preventiva para eliminar riscos, evitar
-            passivos e fortalecer as relações de trabalho.
+            A_Definir
             <br />
             <br />
-            Com atuação precisa, compliance trabalhista e soluções eficazes, o
-            escritório garante segurança jurídica, redução de litígios e suporte
-            completo na gestão de pessoas, porque para nós a empresa forte é
-            aquela que atua com segurança, responsabilidade e total respaldo
-            legal.
+            A_Definir
           </p>
         ),
       },
       {
         index: 3,
         icone: FileX,
-        titulo: "Direitos Negados no Trabalho",
+        titulo: "Conflitos e Problemas Imobiliários",
         descricao:
-          "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
+          "Ajuízo ações, resolvo impasses e te represento em disputas de locação, condomínio e contratos.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza,
-            equilíbrio e sensibilidade no Direito de Família, oferecendo apoio
-            jurídico estratégico em divórcios, pensão alimentícia, guarda,
-            regulamentação de visitas, partilha de bens e conflitos familiares.
+            A_Definir
             <br />
             <br />
-            Com técnica, humanidade e total compromisso com a proteção dos
-            vínculos e interesses envolvidos, o escritório busca soluções
-            justas, seguras e pacíficas, porque para nós cada família merece
-            respeito, acolhimento e a garantia integral de seus direitos.
-          </p>
-        ),
-      },
-      {
-        index: 4,
-        icone: Tag,
-        titulo: "Direito Do Consumidor",
-        descricao:
-          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
-        labelBotaoModal: "Saiba mais",
-        textoModal: (
-          <p>
-            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza na
-            defesa do consumidor, enfrentando práticas abusivas, cobranças
-            indevidas, fraudes, negativas de cobertura, vícios de produtos e
-            serviços, garantindo respeito, indenização e a reparação integral
-            dos danos sofridos.
-            <br />
-            <br />
-            Com estratégia sólida, técnica apurada e compromisso absoluto com a
-            justiça, o escritório assegura que seus direitos sejam reconhecidos
-            e aplicados, porque para nós o consumidor merece proteção real e
-            imediata — e essa é a nossa causa.
+            A_Definir
           </p>
         ),
       },
@@ -142,7 +103,7 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: "Recupere Sua Paz Resolvendo Seus Problemas",
+      titulo: "Te Ajudo a Ter Segurança no Mundo Imobiliário",
       labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
@@ -151,17 +112,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
+            "Você teme fazer um mau negócio porque não entende toda a parte jurídica.",
         },
         {
           index: 2,
           texto:
-            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
+            "Você tem receio de assinar contratos sem saber se estão realmente seguros.",
         },
         {
           index: 3,
           texto:
-            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
+            "Você sente insegurança ao comprar, vender ou alugar um imóvel sem orientação especializada.",
         },
       ],
     },
@@ -172,17 +133,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
+            "Você realiza todas as negociações com segurança e clareza em cada etapa.",
         },
         {
           index: 2,
           texto:
-            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
+            "Tem meu apoio direto, sem precisar procurar outros profissionais para tirar dúvidas.",
         },
         {
           index: 3,
           texto:
-            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e que lutarei pelo seu direito",
+            "Dorme tranquilo(a) sabendo que contratos, documentação e riscos foram analisados por um especialista.",
         },
       ],
     },
@@ -197,8 +158,8 @@ const content = {
 
       titulo: (
         <h2>
-          Cada minuto que você não corre atrás dos seus direitos,
-          <strong> você pode estar sendo lesado(a)!</strong>
+          Cada minuto sem orientação jurídica pode colocar
+          <strong> seu imóvel ou seu dinheiro em risco!</strong>
         </h2>
       ),
       labelBotaoPrincial: "Quero Resolver Agora Mesmo",
@@ -216,7 +177,8 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Mantenho você<strong> informado </strong>do início ao fim
+            <strong> Analiso </strong>contratos e documentos antes de você
+            assinar qualquer coisa
           </p>
         ),
       },
@@ -252,7 +214,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Estou sempre <strong>estudando</strong> todas as mudanças nas leis.
+            Estou sempre <strong>estudando </strong> todas as mudanças nas leis.
           </p>
         ),
       },
@@ -260,8 +222,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            <strong>Ampla experiência</strong> na Advocacia e muitos clientes
-            satisfeitos.
+            <strong>10 anos de experiência</strong> na Advocacia e muitos
+            clientes satisfeitos.
           </p>
         ),
       },
@@ -291,16 +253,16 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: "Chegou a hora de resolver",
+      etiqueta: "Chegou a hora de resolver seu problema imobiliário",
       titulo: (
         <h2>
           Entre em contato e vou fazer uma <strong>análise imediata</strong> do
-          seu caso.
+          seu caso
         </h2>
       ),
       labelBotaoPrincial: "Quero Ser Atendido Agora",
       direitosReservados:
-        "2025 • Dr. Nilton Correia • Todos os direitos reservados • ",
+        "2025 • Dr. Jonatas Honorio • Todos os direitos reservados • ",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
